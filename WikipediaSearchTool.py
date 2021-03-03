@@ -1,6 +1,6 @@
 import tkinter as tk
 import wikipedia
-import lxml
+
 # from tkinter import ttk
 
 win  = tk.Tk()
@@ -36,7 +36,6 @@ scroll_bar.config(command=text_box.yview)
 text_box.pack(side=tk.LEFT, padx=8, pady=8)
 
 
-# BeautifulSoup(html, "lxml")
 win.mainloop()
 
 
